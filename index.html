@@ -24,21 +24,25 @@
     text-align: center;
     box-shadow: 0 20px 50px rgba(0,0,0,0.3);
   }
-  .icon {
-    width: 64px;
-    height: 64px;
-    margin: 0 auto 18px;
-    background: #f0b90b;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-  }
-  h1 {
-    font-size: 20px;
+  .event-title {
+    font-size: 26px;
+    font-weight: 700;
     color: #1a2a6c;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
+  }
+  .event-subtitle {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 18px;
+  }
+  .qr-img {
+    width: 100%;
+    max-width: 260px;
+    height: auto;
+    margin: 0 auto 18px;
+    display: block;
+    border-radius: 8px;
   }
   .name {
     font-size: 17px;
@@ -79,8 +83,9 @@
 </head>
 <body>
   <div class="card">
-    <div class="icon">💸</div>
-    <h1>Pay via UPI</h1>
+    <div class="event-title">ദേവോദാത്തം</div>
+    <div class="event-subtitle">ശ്രീ കോട്ടയ്ക്കൽ ദേവദാസന്റെ<br>ഷഷ്ഠിപൂർത്തിയാഘോഷം</div>
+    <img class="qr-img" src="DevodaathamBankQR.png" alt="UPI QR Code">
     <div class="name">VINOD KUMAR C</div>
     <div class="vpa">QR919539728323-2553@unionbankofindia</div>
     <div class="status" id="status">Opening your UPI app…</div>
