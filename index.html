@@ -27,7 +27,7 @@ button{padding:12px 16px;border-radius:10px;border:1px solid #bbb;background:#ff
 <p class="small">Enter the amount in your preferred UPI app and complete the payment.</p>
 </div>
 <script>
-const upi="upi://pay?pa=QR919539728323-2553@unionbankofindia&pn=VINOD%20KUMAR%20C&cu=INR";
+const upi = "upi://pay?pa=QR919539728323-2553@unionbankofindia&pn=VINOD%20KUMAR%20C&cu=INR&tr=FINACLE_QRCODE&mc=0000&mode=02&purpose=00&sign=MEUCIDJr69TMnhMzoSrFbXC7k0uEzPjBikAxBl/1/0R8k2qkAiEA913yFW94N8wbOWlhRr7wkT6uqv1aAf0yvx5+YLE69LU=";
 function pay(){window.location.href=upi;}
 function copyUPI(){
 navigator.clipboard.writeText("QR919539728323-2553@unionbankofindia");
